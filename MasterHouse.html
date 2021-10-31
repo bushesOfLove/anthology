@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- They think the master of the house is cunning, scrappy, and grasping, but I see responsiblity -->
+        <meta charset="utf-8">
+        <title>Master Of The House</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+    </head>
+    <body>
+        <section>
+            <video src="moh.mp4" autoplay muted loop></video>
+        </section>
+        <section>
+            <div class="content">
+                <h2>Master of the House</h2>
+                <h3>
+                    <span>I am</span> the master of the house,<br>
+                    the father of my daughter, the husband of my wife.<br>
+                    <span>I wonder</span> what are men but providers of his family.<br>
+                    The father belongs no longer to his beliefs, dreams, but to his child.<br>
+                    <span>I want</span> a shelter for my daughter and wife<br>
+                    in the <a href="WeCannotHold.html">age of suffering</a> and bloodshed.<br>
+                    <span>I am</span> the master of the house.<br>
+                    They say I am nothing more than mice,<br>
+                    scraping off of my unfortunate fellows,<br>
+                    clinging on their skins like lice.<br>
+                    <span>I say</span> I must feed my child,<br>
+                    thus leave no mercy for the wild.<br>
+                    <span>I dream</span> not glory nor a higher call,<br>
+                    only preserving the place my daughter calls home.<br>
+                    <span>I am</span> the master of the house.<br>
+                    By Monsieur Thénardier<br>
+                </h3>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            let video = document.querySelector('video');
+            window.addEventListener('scroll', function() {
+                let value = 1 + window.scrollY/-600;
+                video.style.opacity = value;
+            });
+        </script>
+
+        <a href="index.html" id="back">return</a>
+    </body>
+</html>
